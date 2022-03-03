@@ -12,3 +12,10 @@ you can quickly pass a vector as an argument like this ( findAverages(5, vector<
  they can't be manipulated.       (  static vector<double> findAverages(int K, const vector<int>& arr)  )
 
 vectors have a method size() which returns the length of the container i.e the number of elements it contains. ( v1.size() )
+
+cout examples : 
+                      cout << "Averages of subarrays of size K: ";
+                      for (double d : result) {
+                        cout << d << " ";
+                      }
+                      cout << endl;
