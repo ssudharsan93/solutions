@@ -2,3 +2,7 @@ java 'static' keyword indicates that there is only a single instance of that thi
 A static method or variable can only be accessed directly by referring to the class that contains them 
 and having that class call them.
 
+For Arrays (Need   import java.util.Arrays; )
+java Arrays have a property called 'length' which you can access using the dot operator (arr.length)
+
+You can declare an array with a size ( double arr[] = new double[12]; )  
