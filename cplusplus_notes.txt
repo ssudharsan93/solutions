@@ -19,3 +19,10 @@ cout examples :
                         cout << d << " ";
                       }
                       cout << endl;
+
+class declaration example
+
+class AverageOfSubarrayOfSizeK {
+ public:
+ //populate with methods and variables
+ }
