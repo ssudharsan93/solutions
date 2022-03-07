@@ -26,3 +26,6 @@ class declaration example :
                        public:
                        //populate with methods and variables
                        }
+
+You can use the upper bound value for integers by first importing limits (  #include <limits> )
+and then accessing the value through the proper namespace, type and method. ( minLength = numeric_limits<int>::max(); )
