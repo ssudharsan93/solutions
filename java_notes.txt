@@ -8,3 +8,6 @@ java Arrays have a property called 'length' which you can access using the dot o
 You can declare an array with a size ( double arr[] = new double[12]; )
 
 You can quickly pass an array as an argument like this. ( AverageOfSubarrayOfSizeK.findAverages(5, new int[] { 1, 3, 2, 6, -1, 4, 1, 8, 2 }); )
+
+You can take the highest possible integer value and use it with Integer.MAX_VALUE ( minLength = Integer.MAX_VALUE )
+You can take the lowest possible integer value and use it with Integer.MIN_VALUE ( minLength = Integer.MIN_VALUE )
