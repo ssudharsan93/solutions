@@ -11,3 +11,22 @@ You can quickly pass an array as an argument like this. ( AverageOfSubarrayOfSiz
 
 You can take the highest possible integer value and use it with Integer.MAX_VALUE ( minLength = Integer.MAX_VALUE )
 You can take the lowest possible integer value and use it with Integer.MIN_VALUE ( minLength = Integer.MIN_VALUE )
+
+Java HashMap:
+
+Imported as part of java.util ( java.util.HashMap )
+
+How to instantiate ( HashMap<Character, Integer> seen = new HashMap<Character, Integer>(); )
+
+Use the method get() in order to access a value by providing the desired key ( seen.get(str.charAt(windowStart)) )
+Use the method remove() in order to remove a key value pair by providing the desired key ( seen.remove(str.charAt(windowStart)) )
+Use the method replace() in order to replace a value for a certain key with a new value ( map.replace(key, newValue) )
+
+Java String
+
+Imported implicitly as part of java.lang (java.lang.String)
+
+How to instantiate ( String str = "Hello world"; or str = new String("Hello World"); )
+
+Use the method charAt() in order to access a character at a given numerical index. ( str.charAt(0); )
+Use the method length() in order to get the length of the string. ( str.length(); )
