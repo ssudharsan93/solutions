@@ -19,6 +19,7 @@ Imported as part of java.util ( java.util.HashMap )
 How to instantiate ( HashMap<Character, Integer> seen = new HashMap<Character, Integer>(); )
 
 Use the method get() in order to access a value by providing the desired key ( seen.get(str.charAt(windowStart)) )
+Use the method put() in order to put a new key value pair into the HashMap ( map.put(key, newValue) )
 Use the method remove() in order to remove a key value pair by providing the desired key ( seen.remove(str.charAt(windowStart)) )
 Use the method replace() in order to replace a value for a certain key with a new value ( map.replace(key, newValue) )
 
