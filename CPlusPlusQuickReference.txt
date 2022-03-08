@@ -5,7 +5,9 @@ using namespace std; ####  to prevent having to specify the namespace over and o
 
 specify vector types by typing in vector<desired_type>
 
-you can quickly pass a vector as an argument like this ( findAverages(5, vector<int>{1, 3, 2, 6, -1, 4, 1, 8, 2}) )
+You can check against a null pointer by using the keyword 'nullptr'.
+
+You can quickly pass a vector as an argument like this ( findAverages(5, vector<int>{1, 3, 2, 6, -1, 4, 1, 8, 2}) )
 
  Methods should be explicitly typed and their arguments should probably contain the address of 
  variables or containers. Also the arguments should probably be indicated to be const so that
