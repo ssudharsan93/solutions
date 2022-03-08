@@ -29,3 +29,22 @@ class declaration example :
 
 You can use the upper bound value for integers by first importing limits (  #include <limits> )
 and then accessing the value through the proper namespace, type and method. ( minLength = numeric_limits<int>::max(); )
+
+Using strings:
+                      #include <string>
+                      Use method length() in order to get the length of the string. ( str.length() )
+                      Accessing characters in the string is done using [] type brackets ( str[index] )
+
+Using unordered maps:
+
+                      #include <unordered_map>
+                      Instantiating an unordered_map involves specifying the desired type of the key and the value ( unordered_map<char,int> map1; )
+                      Assigning values to the unordered_map is done using [] type brackets. ( map1["Key"] = "Value"; )
+                      
+                      Use the method size() to find the total number of key,value pairs in the unordered map. This also indicates the
+                      number of distinct keys. This method returns a distinct size type so it needs to be cast as an int. ( (int) map1.size() )
+                      Use the method find() to return an iterator to the corresponding value of the desired key. ( map1.find("Key"); )
+                      Use the method end() to return an iterator to the position just past the last element of the map. 
+                               ( Useful when paired with the method find() because find() returns the iterator just past the last element of the map.
+                                 We can use this method to check whether a certain key value pair exists. )
+                      
