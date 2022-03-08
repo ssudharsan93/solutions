@@ -19,6 +19,15 @@ Single static instance instantiated as part of java.lang. (java.lang.Math)
 Use Math.max() in order to find the maximum value between two values. ( Math.max(a, b); )
 Use Math.min() in order to find the minimum value between two values. ( Math.min(a, b); )
 
+Java String
+
+Imported implicitly as part of java.lang (java.lang.String)
+
+How to instantiate ( String str = "Hello world"; or str = new String("Hello World"); )
+
+Use the method charAt() in order to access a character at a given numerical index. ( str.charAt(0); )
+Use the method length() in order to get the length of the string. ( str.length(); )
+
 Java HashMap:
 
 Imported as part of java.util ( java.util.HashMap )
@@ -30,15 +39,7 @@ Use the method getOrDefault() in order to get a value for a key and if it doesn'
 Use the method put() in order to put a new key value pair into the HashMap ( map.put(key, newValue) )
 Use the method remove() in order to remove a key value pair by providing the desired key ( seen.remove(str.charAt(windowStart)) )
 Use the method replace() in order to replace a value for a certain key with a new value ( map.replace(key, newValue) )
-
-Java String
-
-Imported implicitly as part of java.lang (java.lang.String)
-
-How to instantiate ( String str = "Hello world"; or str = new String("Hello World"); )
-
-Use the method charAt() in order to access a character at a given numerical index. ( str.charAt(0); )
-Use the method length() in order to get the length of the string. ( str.length(); )
+Use the method containsKey() in order to determine whether a given key is already present in HashMap. Returns true if the key already exists. ( map.containsKey(key) )
 
 Java Exceptions
 
