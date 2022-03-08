@@ -12,6 +12,13 @@ You can quickly pass an array as an argument like this. ( AverageOfSubarrayOfSiz
 You can take the highest possible integer value and use it with Integer.MAX_VALUE ( minLength = Integer.MAX_VALUE )
 You can take the lowest possible integer value and use it with Integer.MIN_VALUE ( minLength = Integer.MIN_VALUE )
 
+Java Math
+
+Single static instance instantiated as part of java.lang. (java.lang.Math)
+
+Use Math.max() in order to find the maximum value between two values. ( Math.max(a, b); )
+Use Math.min() in order to find the minimum value between two values. ( Math.min(a, b); )
+
 Java HashMap:
 
 Imported as part of java.util ( java.util.HashMap )
@@ -19,6 +26,7 @@ Imported as part of java.util ( java.util.HashMap )
 How to instantiate ( HashMap<Character, Integer> seen = new HashMap<Character, Integer>(); )
 
 Use the method get() in order to access a value by providing the desired key ( seen.get(str.charAt(windowStart)) )
+Use the method getOrDefault() in order to get a value for a key and if it doesn't exist initialize it with a default value. ( map.getOrDefault(key, defaultValue) )
 Use the method put() in order to put a new key value pair into the HashMap ( map.put(key, newValue) )
 Use the method remove() in order to remove a key value pair by providing the desired key ( seen.remove(str.charAt(windowStart)) )
 Use the method replace() in order to replace a value for a certain key with a new value ( map.replace(key, newValue) )
