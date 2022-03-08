@@ -39,3 +39,11 @@ How to instantiate ( String str = "Hello world"; or str = new String("Hello Worl
 
 Use the method charAt() in order to access a character at a given numerical index. ( str.charAt(0); )
 Use the method length() in order to get the length of the string. ( str.length(); )
+
+Java Exceptions
+
+Use keyword 'throw' along with 'new' keyword in order to raise exceptions. ( throw new IllegalArgumentException(); )
+
+IllegalArgumentException - Indicates illegal argument passed to a method.
+
+
