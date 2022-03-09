@@ -1,7 +1,6 @@
 using namespace std; ####  to prevent having to specify the namespace over and over again. 
 
 #include <iostream>  ####  allows you to use cout and cin with arrows.
-#include <vector>    ####  c++ arrays which allow you to access and iterate through the items easily.
 
 specify vector types by typing in vector<desired_type>
 
@@ -36,6 +35,10 @@ Using strings:
                       #include <string>
                       Use method length() in order to get the length of the string. ( str.length() )
                       Accessing characters in the string is done using [] type brackets ( str[index] )
+                      
+Using vectors:
+                      #include <vector>    ####  c++ arrays which allow you to access and iterate through the items easily.
+                      Use method size() which returns the length of the container i.e the number of elements it contains. ( v1.size() )
 
 Using unordered maps:
 
