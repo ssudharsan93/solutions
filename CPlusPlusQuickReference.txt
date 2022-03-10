@@ -2,17 +2,11 @@ using namespace std; ####  to prevent having to specify the namespace over and o
 
 #include <iostream>  ####  allows you to use cout and cin with arrows.
 
-specify vector types by typing in vector<desired_type>
-
 You can check against a null pointer by using the keyword 'nullptr'.
-
-You can quickly pass a vector as an argument like this ( findAverages(5, vector<int>{1, 3, 2, 6, -1, 4, 1, 8, 2}) )
 
  Methods should be explicitly typed and their arguments should probably contain the address of 
  variables or containers. Also the arguments should probably be indicated to be const so that
  they can't be manipulated.       (  static vector<double> findAverages(int K, const vector<int>& arr)  )
-
-vectors have a method size() which returns the length of the container i.e the number of elements it contains. ( v1.size() )
 
 cout examples : 
                       cout << "Averages of subarrays of size K: ";
@@ -42,7 +36,9 @@ Using strings:
 Using vectors:
                       #include <vector>    ####  c++ arrays which allow you to access and iterate through the items easily.
                       Use method size() which returns the length of the container i.e the number of elements it contains. ( v1.size() )
-
+                      Instantiate vectors by specifying their type ( vector<desired_type> myVector; )
+                      You can quickly pass a vector as an argument like this ( findAverages(5, vector<int>{1, 3, 2, 6, -1, 4, 1, 8, 2}) )
+                      
 Using unordered maps:
 
                       #include <unordered_map>
