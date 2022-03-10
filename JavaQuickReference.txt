@@ -28,6 +28,8 @@ How to instantiate ( String str = "Hello world"; or str = new String("Hello Worl
 Use the method charAt() in order to access a character at a given numerical index. ( str.charAt(0); )
 Use the method length() in order to get the length of the string. ( str.length(); )
 Use the method toCharArray() in order to convert the string to a character array. ( str.tocharArray(); )
+Use the method substring() in order to splice the string from the start index to just before the end index.
+Splices from the start index to the end of the string if no end index is provided. ( str.substring(startIndex); or str.substring(startIndex, endIndex); )
 
 Java HashMap:
 
