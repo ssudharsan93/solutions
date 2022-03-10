@@ -35,8 +35,9 @@ Using strings:
                       #include <string>
                       Use method length() in order to get the length of the string. ( str.length() )
                       Accessing characters in the string is done using [] type brackets ( str[index] )
-                      Use the method substr() in order to splice the string from the start index to just before the end index.
-                      Splices from the start index to the end of the string if no end index is provided. ( str.substr(startIndex); or str.substr(startIndex, endIndex); )
+                      Use the method substr() in order to splice the string, where the first argument is the starting index and the second argument is the length of
+                      the desired spliced string. Splices from the start index to the end of the string if no end index is provided. 
+                      ( str.substr(startIndex); or str.substr(startIndex, lengthOfDesiredString); )
                       
 Using vectors:
                       #include <vector>    ####  c++ arrays which allow you to access and iterate through the items easily.
