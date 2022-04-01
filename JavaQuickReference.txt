@@ -43,6 +43,7 @@ Java ArrayList
       remove the element at a given position of the ArrayList( myArrList.remove(elem); or myArrList.remove(pos); )
     Use the method indexOf() in order to find the first occurrence of an element in an ArrayList ( myArrList.indexOf(elem); )
     Use the method size() in order to get the length of or number of elements in the ArrayList ( myArrList.size(); )
+    Use the method isEmpty() in order to determine if the ArrayList is empty. ( myArrList.isEmpty(); )
 
 Java HashMap:
 
