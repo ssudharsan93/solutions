@@ -2,52 +2,65 @@ java 'static' keyword indicates that there is only a single instance of that thi
 A static method or variable can only be accessed directly by referring to the class that contains them 
 and having that class call them.
 
-For Arrays (Need   import java.util.Arrays; )
-java Arrays have a property called 'length' which you can access using the dot operator (arr.length)
+Java Arrays 
 
-You can declare an array with a size ( double arr[] = new double[12]; )
+    Imported as part of java.util ( import java.util.Arrays; )
 
-You can quickly pass an array as an argument like this. ( AverageOfSubarrayOfSizeK.findAverages(5, new int[] { 1, 3, 2, 6, -1, 4, 1, 8, 2 }); )
-
-You can take the highest possible integer value and use it with Integer.MAX_VALUE ( minLength = Integer.MAX_VALUE )
-You can take the lowest possible integer value and use it with Integer.MIN_VALUE ( minLength = Integer.MIN_VALUE )
+    java Arrays have a property called 'length' which you can access using the dot operator (arr.length)
+    You can declare an array with a size ( double arr[] = new double[12]; )
+    You can quickly pass an array as an argument like this. ( AverageOfSubarrayOfSizeK.findAverages(5, new int[] { 1, 3, 2, 6, -1, 4, 1, 8, 2 }); )
+    You can take the highest possible integer value and use it with Integer.MAX_VALUE ( minLength = Integer.MAX_VALUE )
+    You can take the lowest possible integer value and use it with Integer.MIN_VALUE ( minLength = Integer.MIN_VALUE )
 
 Java Math
 
-Single static instance instantiated as part of java.lang. (java.lang.Math)
+    Single static instance instantiated as part of java.lang. (java.lang.Math)
 
-Use Math.max() in order to find the maximum value between two values. ( Math.max(a, b); )
-Use Math.min() in order to find the minimum value between two values. ( Math.min(a, b); )
+    Use Math.max() in order to find the maximum value between two values. ( Math.max(a, b); )
+    Use Math.min() in order to find the minimum value between two values. ( Math.min(a, b); )
 
 Java String
 
-Imported implicitly as part of java.lang (java.lang.String)
+    Imported implicitly as part of java.lang (java.lang.String)
 
-How to instantiate ( String str = "Hello world"; or str = new String("Hello World"); )
+    How to instantiate ( String str = "Hello world"; or str = new String("Hello World"); )
 
-Use the method charAt() in order to access a character at a given numerical index. ( str.charAt(0); )
-Use the method length() in order to get the length of the string. ( str.length(); )
-Use the method toCharArray() in order to convert the string to a character array. ( str.tocharArray(); )
-Use the method substring() in order to splice the string from the start index to just before the end index.
-Splices from the start index to the end of the string if no end index is provided. ( str.substring(startIndex); or str.substring(startIndex, endIndex); )
+    Use the method charAt() in order to access a character at a given numerical index. ( str.charAt(0); )
+    Use the method length() in order to get the length of the string. ( str.length(); )
+    Use the method toCharArray() in order to convert the string to a character array. ( str.tocharArray(); )
+    Use the method substring() in order to splice the string from the start index to just before the end index.
+    Splices from the start index to the end of the string if no end index is provided. ( str.substring(startIndex); or str.substring(startIndex, endIndex); )
+
+Java ArrayList
+
+    Imported as part of java.util ( import java.util.ArrayList; )
+    
+    How to instantiate ( ArrayList<Integer> myArrayList = new ArrayList<Integer>(); )
+    
+    Use the method add() in order to add an element to the end of the ArrayList ( myArrList.add(elem); )
+    Use the method get() in order to access an element at a specified position of the ArrayList ( myArrList.get(pos); )
+    Use the method remove() in order to remove the first occurrence of an element from the ArrayList or 
+      remove the element at a given position of the ArrayList( myArrList.remove(elem); or myArrList.remove(pos); )
+    Use the method indexOf() in order to find the first occurrence of an element in an ArrayList ( myArrList.indexOf(elem); )
+    Use the method size() in order to get the length of or number of elements in the ArrayList ( myArrList.size(); )
 
 Java HashMap:
 
-Imported as part of java.util ( java.util.HashMap )
+    Imported as part of java.util ( import java.util.HashMap; )
 
-How to instantiate ( HashMap<Character, Integer> seen = new HashMap<Character, Integer>(); )
+    How to instantiate ( HashMap<Character, Integer> seen = new HashMap<Character, Integer>(); )
 
-Use the method get() in order to access a value by providing the desired key ( seen.get(str.charAt(windowStart)) )
-Use the method getOrDefault() in order to get a value for a key and if it doesn't exist initialize it with a default value. ( map.getOrDefault(key, defaultValue) )
-Use the method put() in order to put a new key value pair into the HashMap ( map.put(key, newValue) )
-Use the method remove() in order to remove a key value pair by providing the desired key ( seen.remove(str.charAt(windowStart)) )
-Use the method replace() in order to replace a value for a certain key with a new value ( map.replace(key, newValue) )
-Use the method containsKey() in order to determine whether a given key is already present in HashMap. Returns true if the key already exists. ( map.containsKey(key) )
+    Use the method get() in order to access a value by providing the desired key ( seen.get(str.charAt(windowStart)) )
+    Use the method getOrDefault() in order to get a value for a key and if it doesn't exist initialize it with a default value. ( map.getOrDefault(key, defaultValue) )
+    Use the method put() in order to put a new key value pair into the HashMap ( map.put(key, newValue) )
+    Use the method remove() in order to remove a key value pair by providing the desired key ( seen.remove(str.charAt(windowStart)) )
+    Use the method replace() in order to replace a value for a certain key with a new value ( map.replace(key, newValue) )
+    Use the method containsKey() in order to determine whether a given key is already present in HashMap. 
+      Returns true if the key already exists. ( map.containsKey(key) )
 
 Java Exceptions
 
-Use keyword 'throw' along with 'new' keyword in order to raise exceptions. ( throw new IllegalArgumentException(); )
-
-IllegalArgumentException - Indicates illegal argument passed to a method.
+    Use keyword 'throw' along with 'new' keyword in order to raise exceptions. ( throw new IllegalArgumentException(); )
+    IllegalArgumentException - Indicates illegal argument passed to a method.
 
 
